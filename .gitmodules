@@ -1,0 +1,6 @@
+[submodule "iPoc/lib/objectiveresource"]
+	path = iPoc/lib/objectiveresource
+	url = git://github.com/stygeo/objectiveresource.git
+[submodule "iPoc/lib/objectivesupport"]
+	path = iPoc/lib/objectivesupport
+	url = git://github.com/stygeo/objectivesupport.git

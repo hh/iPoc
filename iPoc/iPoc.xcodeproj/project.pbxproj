@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83AF30DA11E538C200A63C01 /* AddDogView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83AF30B711E538C200A63C01 /* AddDogView.xib */; };
+		83AF30DB11E538C200A63C01 /* AddDogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AF30B911E538C200A63C01 /* AddDogViewController.m */; };
+		83AF30DC11E538C200A63C01 /* AddPersonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83AF30BA11E538C200A63C01 /* AddPersonView.xib */; };
+		83AF30DD11E538C200A63C01 /* AddPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AF30BC11E538C200A63C01 /* AddPersonViewController.m */; };
+		83AF30DE11E538C200A63C01 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AF30BE11E538C200A63C01 /* Dog.m */; };
+		83AF30DF11E538C200A63C01 /* DogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AF30C011E538C200A63C01 /* DogViewController.m */; };
+		83AF30E011E538C200A63C01 /* DogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83AF30C111E538C200A63C01 /* DogViewController.xib */; };
+		83AF30E111E538C200A63C01 /* EditDogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AF30C311E538C200A63C01 /* EditDogViewController.m */; };
+		83AF30E211E538C200A63C01 /* EditDogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83AF30C411E538C200A63C01 /* EditDogViewController.xib */; };
+		83AF30E311E538C200A63C01 /* EditPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AF30C611E538C200A63C01 /* EditPerson.m */; };
+		83AF30E411E538C200A63C01 /* EditPersonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AF30C811E538C200A63C01 /* EditPersonController.m */; };
+		83AF30E511E538C200A63C01 /* EditPersonController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83AF30C911E538C200A63C01 /* EditPersonController.xib */; };
+		83AF30E611E538C200A63C01 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83AF30CB11E538C200A63C01 /* MainWindow.xib */; };
+		83AF30E711E538C200A63C01 /* objective_resourceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AF30CD11E538C200A63C01 /* objective_resourceAppDelegate.m */; };
+		83AF30E811E538C200A63C01 /* PeopleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AF30CF11E538C200A63C01 /* PeopleViewController.m */; };
+		83AF30E911E538C200A63C01 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AF30D111E538C200A63C01 /* Person.m */; };
+		83AF30EA11E538C200A63C01 /* PersonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83AF30D211E538C200A63C01 /* PersonView.xib */; };
+		83AF30EB11E538C200A63C01 /* PrefixedPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AF30D411E538C200A63C01 /* PrefixedPerson.m */; };
+		83AF30EC11E538C200A63C01 /* ViewDogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AF30D611E538C200A63C01 /* ViewDogController.m */; };
+		83AF30ED11E538C200A63C01 /* ViewDogController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83AF30D711E538C200A63C01 /* ViewDogController.xib */; };
+		83AF30EE11E538C200A63C01 /* ViewPersonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AF30D911E538C200A63C01 /* ViewPersonController.m */; };
 		83D04A9411E52E620038C230 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D04A9311E52E620038C230 /* UIKit.framework */; };
 		83D04A9611E52E620038C230 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D04A9511E52E620038C230 /* Foundation.framework */; };
 		83D04A9811E52E620038C230 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D04A9711E52E620038C230 /* CoreGraphics.framework */; };
@@ -20,7 +41,52 @@
 		83D04AB111E52E630038C230 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D04AAF11E52E630038C230 /* SecondView.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		83F1C49011E54317001080B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83F1C48C11E54317001080B0 /* ObjectiveResource.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D /* libObjectiveResource.a */;
+			remoteInfo = ObjectiveResource;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		83AF30B711E538C200A63C01 /* AddDogView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AddDogView.xib; path = persondog_demo/AddDogView.xib; sourceTree = "<group>"; };
+		83AF30B811E538C200A63C01 /* AddDogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddDogViewController.h; sourceTree = "<group>"; };
+		83AF30B911E538C200A63C01 /* AddDogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddDogViewController.m; sourceTree = "<group>"; };
+		83AF30BA11E538C200A63C01 /* AddPersonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AddPersonView.xib; path = persondog_demo/AddPersonView.xib; sourceTree = "<group>"; };
+		83AF30BB11E538C200A63C01 /* AddPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPersonViewController.h; sourceTree = "<group>"; };
+		83AF30BC11E538C200A63C01 /* AddPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPersonViewController.m; sourceTree = "<group>"; };
+		83AF30BD11E538C200A63C01 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		83AF30BE11E538C200A63C01 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		83AF30BF11E538C200A63C01 /* DogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DogViewController.h; sourceTree = "<group>"; };
+		83AF30C011E538C200A63C01 /* DogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DogViewController.m; sourceTree = "<group>"; };
+		83AF30C111E538C200A63C01 /* DogViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DogViewController.xib; path = persondog_demo/DogViewController.xib; sourceTree = "<group>"; };
+		83AF30C211E538C200A63C01 /* EditDogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditDogViewController.h; sourceTree = "<group>"; };
+		83AF30C311E538C200A63C01 /* EditDogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditDogViewController.m; sourceTree = "<group>"; };
+		83AF30C411E538C200A63C01 /* EditDogViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = EditDogViewController.xib; path = persondog_demo/EditDogViewController.xib; sourceTree = "<group>"; };
+		83AF30C511E538C200A63C01 /* EditPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditPerson.h; sourceTree = "<group>"; };
+		83AF30C611E538C200A63C01 /* EditPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditPerson.m; sourceTree = "<group>"; };
+		83AF30C711E538C200A63C01 /* EditPersonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditPersonController.h; sourceTree = "<group>"; };
+		83AF30C811E538C200A63C01 /* EditPersonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditPersonController.m; sourceTree = "<group>"; };
+		83AF30C911E538C200A63C01 /* EditPersonController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = EditPersonController.xib; path = persondog_demo/EditPersonController.xib; sourceTree = "<group>"; };
+		83AF30CA11E538C200A63C01 /* ItemIds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemIds.h; sourceTree = "<group>"; };
+		83AF30CB11E538C200A63C01 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = persondog_demo/MainWindow.xib; sourceTree = "<group>"; };
+		83AF30CC11E538C200A63C01 /* objective_resourceAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = objective_resourceAppDelegate.h; sourceTree = "<group>"; };
+		83AF30CD11E538C200A63C01 /* objective_resourceAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = objective_resourceAppDelegate.m; sourceTree = "<group>"; };
+		83AF30CE11E538C200A63C01 /* PeopleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleViewController.h; sourceTree = "<group>"; };
+		83AF30CF11E538C200A63C01 /* PeopleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleViewController.m; sourceTree = "<group>"; };
+		83AF30D011E538C200A63C01 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		83AF30D111E538C200A63C01 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		83AF30D211E538C200A63C01 /* PersonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PersonView.xib; path = persondog_demo/PersonView.xib; sourceTree = "<group>"; };
+		83AF30D311E538C200A63C01 /* PrefixedPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixedPerson.h; sourceTree = "<group>"; };
+		83AF30D411E538C200A63C01 /* PrefixedPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefixedPerson.m; sourceTree = "<group>"; };
+		83AF30D511E538C200A63C01 /* ViewDogController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewDogController.h; sourceTree = "<group>"; };
+		83AF30D611E538C200A63C01 /* ViewDogController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewDogController.m; sourceTree = "<group>"; };
+		83AF30D711E538C200A63C01 /* ViewDogController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ViewDogController.xib; path = persondog_demo/ViewDogController.xib; sourceTree = "<group>"; };
+		83AF30D811E538C200A63C01 /* ViewPersonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewPersonController.h; sourceTree = "<group>"; };
+		83AF30D911E538C200A63C01 /* ViewPersonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewPersonController.m; sourceTree = "<group>"; };
 		83D04A9011E52E620038C230 /* iPoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D04A9311E52E620038C230 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		83D04A9511E52E620038C230 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -38,6 +104,7 @@
 		83D04AAA11E52E620038C230 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		83D04AAD11E52E620038C230 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
 		83D04AB011E52E630038C230 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		83F1C48C11E54317001080B0 /* ObjectiveResource.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ObjectiveResource.xcodeproj; path = lib/objectiveresource/src/ObjectiveResource.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +121,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83AF30B611E538C200A63C01 /* persondog_demo */ = {
+			isa = PBXGroup;
+			children = (
+				83AF30B811E538C200A63C01 /* AddDogViewController.h */,
+				83AF30B911E538C200A63C01 /* AddDogViewController.m */,
+				83AF30BB11E538C200A63C01 /* AddPersonViewController.h */,
+				83AF30BC11E538C200A63C01 /* AddPersonViewController.m */,
+				83AF30BD11E538C200A63C01 /* Dog.h */,
+				83AF30BE11E538C200A63C01 /* Dog.m */,
+				83AF30BF11E538C200A63C01 /* DogViewController.h */,
+				83AF30C011E538C200A63C01 /* DogViewController.m */,
+				83AF30C211E538C200A63C01 /* EditDogViewController.h */,
+				83AF30C311E538C200A63C01 /* EditDogViewController.m */,
+				83AF30C511E538C200A63C01 /* EditPerson.h */,
+				83AF30C611E538C200A63C01 /* EditPerson.m */,
+				83AF30C711E538C200A63C01 /* EditPersonController.h */,
+				83AF30C811E538C200A63C01 /* EditPersonController.m */,
+				83AF30CA11E538C200A63C01 /* ItemIds.h */,
+				83AF30CC11E538C200A63C01 /* objective_resourceAppDelegate.h */,
+				83AF30CD11E538C200A63C01 /* objective_resourceAppDelegate.m */,
+				83AF30CE11E538C200A63C01 /* PeopleViewController.h */,
+				83AF30CF11E538C200A63C01 /* PeopleViewController.m */,
+				83AF30D011E538C200A63C01 /* Person.h */,
+				83AF30D111E538C200A63C01 /* Person.m */,
+				83AF30D311E538C200A63C01 /* PrefixedPerson.h */,
+				83AF30D411E538C200A63C01 /* PrefixedPerson.m */,
+				83AF30D511E538C200A63C01 /* ViewDogController.h */,
+				83AF30D611E538C200A63C01 /* ViewDogController.m */,
+				83AF30D811E538C200A63C01 /* ViewPersonController.h */,
+				83AF30D911E538C200A63C01 /* ViewPersonController.m */,
+			);
+			path = persondog_demo;
+			sourceTree = "<group>";
+		};
 		83D04A8111E52E620038C230 = {
 			isa = PBXGroup;
 			children = (
+				83F1C48C11E54317001080B0 /* ObjectiveResource.xcodeproj */,
+				83AF30B611E538C200A63C01 /* persondog_demo */,
 				83D04A8811E52E620038C230 /* Classes */,
 				83D04A8911E52E620038C230 /* Other Sources */,
 				83D04A8A11E52E620038C230 /* Resources */,
@@ -90,6 +193,14 @@
 		83D04A8A11E52E620038C230 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				83AF30B711E538C200A63C01 /* AddDogView.xib */,
+				83AF30BA11E538C200A63C01 /* AddPersonView.xib */,
+				83AF30C111E538C200A63C01 /* DogViewController.xib */,
+				83AF30C411E538C200A63C01 /* EditDogViewController.xib */,
+				83AF30C911E538C200A63C01 /* EditPersonController.xib */,
+				83AF30CB11E538C200A63C01 /* MainWindow.xib */,
+				83AF30D211E538C200A63C01 /* PersonView.xib */,
+				83AF30D711E538C200A63C01 /* ViewDogController.xib */,
 				83D04A9911E52E620038C230 /* iPoc-Info.plist */,
 				83D04A9B11E52E620038C230 /* InfoPlist.strings */,
 				83D04AA311E52E620038C230 /* MainWindow.xib */,
@@ -113,6 +224,14 @@
 			isa = PBXGroup;
 			children = (
 				83D04A9011E52E620038C230 /* iPoc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83F1C48D11E54317001080B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83F1C49111E54317001080B0 /* libObjectiveResource.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,12 +270,28 @@
 			mainGroup = 83D04A8111E52E620038C230;
 			productRefGroup = 83D04A9111E52E620038C230 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 83F1C48D11E54317001080B0 /* Products */;
+					ProjectRef = 83F1C48C11E54317001080B0 /* ObjectiveResource.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				83D04A8F11E52E620038C230 /* iPoc */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		83F1C49111E54317001080B0 /* libObjectiveResource.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libObjectiveResource.a;
+			remoteRef = 83F1C49011E54317001080B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		83D04A8E11E52E620038C230 /* Resources */ = {
@@ -167,6 +302,14 @@
 				83D04AA511E52E620038C230 /* MainWindow.xib in Resources */,
 				83D04AAE11E52E620038C230 /* FirstView.xib in Resources */,
 				83D04AB111E52E630038C230 /* SecondView.xib in Resources */,
+				83AF30DA11E538C200A63C01 /* AddDogView.xib in Resources */,
+				83AF30DC11E538C200A63C01 /* AddPersonView.xib in Resources */,
+				83AF30E011E538C200A63C01 /* DogViewController.xib in Resources */,
+				83AF30E211E538C200A63C01 /* EditDogViewController.xib in Resources */,
+				83AF30E511E538C200A63C01 /* EditPersonController.xib in Resources */,
+				83AF30E611E538C200A63C01 /* MainWindow.xib in Resources */,
+				83AF30EA11E538C200A63C01 /* PersonView.xib in Resources */,
+				83AF30ED11E538C200A63C01 /* ViewDogController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +324,19 @@
 				83D04AA211E52E620038C230 /* iPocAppDelegate.m in Sources */,
 				83D04AA811E52E620038C230 /* FirstViewController.m in Sources */,
 				83D04AAB11E52E620038C230 /* SecondViewController.m in Sources */,
+				83AF30DB11E538C200A63C01 /* AddDogViewController.m in Sources */,
+				83AF30DD11E538C200A63C01 /* AddPersonViewController.m in Sources */,
+				83AF30DE11E538C200A63C01 /* Dog.m in Sources */,
+				83AF30DF11E538C200A63C01 /* DogViewController.m in Sources */,
+				83AF30E111E538C200A63C01 /* EditDogViewController.m in Sources */,
+				83AF30E311E538C200A63C01 /* EditPerson.m in Sources */,
+				83AF30E411E538C200A63C01 /* EditPersonController.m in Sources */,
+				83AF30E711E538C200A63C01 /* objective_resourceAppDelegate.m in Sources */,
+				83AF30E811E538C200A63C01 /* PeopleViewController.m in Sources */,
+				83AF30E911E538C200A63C01 /* Person.m in Sources */,
+				83AF30EB11E538C200A63C01 /* PrefixedPerson.m in Sources */,
+				83AF30EC11E538C200A63C01 /* ViewDogController.m in Sources */,
+				83AF30EE11E538C200A63C01 /* ViewPersonController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,7 +389,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos3.2;
 			};
 			name = Debug;
 		};
@@ -247,7 +403,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos3.2;
 			};
 			name = Release;
 		};
@@ -260,6 +416,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iPoc_Prefix.pch;
 				INFOPLIST_FILE = "iPoc-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/lib/objectiveresource/src/build/Debug-iphonesimulator\"",
+				);
 				PRODUCT_NAME = iPoc;
 				WRAPPER_EXTENSION = app;
 			};
@@ -273,6 +433,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iPoc_Prefix.pch;
 				INFOPLIST_FILE = "iPoc-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/lib/objectiveresource/src/build/Debug-iphonesimulator\"",
+				);
 				PRODUCT_NAME = iPoc;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
