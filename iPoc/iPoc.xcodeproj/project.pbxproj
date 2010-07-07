@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83D04A9411E52E620038C230 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D04A9311E52E620038C230 /* UIKit.framework */; };
+		83D04A9611E52E620038C230 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D04A9511E52E620038C230 /* Foundation.framework */; };
+		83D04A9811E52E620038C230 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D04A9711E52E620038C230 /* CoreGraphics.framework */; };
+		83D04A9D11E52E620038C230 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83D04A9B11E52E620038C230 /* InfoPlist.strings */; };
+		83D04A9F11E52E620038C230 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D04A9E11E52E620038C230 /* main.m */; };
+		83D04AA211E52E620038C230 /* iPocAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D04AA111E52E620038C230 /* iPocAppDelegate.m */; };
+		83D04AA511E52E620038C230 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D04AA311E52E620038C230 /* MainWindow.xib */; };
+		83D04AA811E52E620038C230 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D04AA711E52E620038C230 /* FirstViewController.m */; };
+		83D04AAB11E52E620038C230 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D04AAA11E52E620038C230 /* SecondViewController.m */; };
+		83D04AAE11E52E620038C230 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D04AAC11E52E620038C230 /* FirstView.xib */; };
+		83D04AB111E52E630038C230 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D04AAF11E52E630038C230 /* SecondView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		83D04A9011E52E620038C230 /* iPoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D04A9311E52E620038C230 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		83D04A9511E52E620038C230 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		83D04A9711E52E620038C230 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		83D04A9911E52E620038C230 /* iPoc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPoc-Info.plist"; sourceTree = "<group>"; };
+		83D04A9A11E52E620038C230 /* iPoc_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPoc_Prefix.pch; sourceTree = "<group>"; };
+		83D04A9C11E52E620038C230 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83D04A9E11E52E620038C230 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83D04AA011E52E620038C230 /* iPocAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPocAppDelegate.h; sourceTree = "<group>"; };
+		83D04AA111E52E620038C230 /* iPocAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPocAppDelegate.m; sourceTree = "<group>"; };
+		83D04AA411E52E620038C230 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		83D04AA611E52E620038C230 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		83D04AA711E52E620038C230 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		83D04AA911E52E620038C230 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		83D04AAA11E52E620038C230 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		83D04AAD11E52E620038C230 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		83D04AB011E52E630038C230 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83D04A8D11E52E620038C230 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D04A9411E52E620038C230 /* UIKit.framework in Frameworks */,
+				83D04A9611E52E620038C230 /* Foundation.framework in Frameworks */,
+				83D04A9811E52E620038C230 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83D04A8111E52E620038C230 = {
+			isa = PBXGroup;
+			children = (
+				83D04A8811E52E620038C230 /* Classes */,
+				83D04A8911E52E620038C230 /* Other Sources */,
+				83D04A8A11E52E620038C230 /* Resources */,
+				83D04A8B11E52E620038C230 /* Frameworks */,
+				83D04A9111E52E620038C230 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83D04A8811E52E620038C230 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				83D04AA011E52E620038C230 /* iPocAppDelegate.h */,
+				83D04AA111E52E620038C230 /* iPocAppDelegate.m */,
+				83D04AA611E52E620038C230 /* FirstViewController.h */,
+				83D04AA711E52E620038C230 /* FirstViewController.m */,
+				83D04AA911E52E620038C230 /* SecondViewController.h */,
+				83D04AAA11E52E620038C230 /* SecondViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		83D04A8911E52E620038C230 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				83D04A9A11E52E620038C230 /* iPoc_Prefix.pch */,
+				83D04A9E11E52E620038C230 /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		83D04A8A11E52E620038C230 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				83D04A9911E52E620038C230 /* iPoc-Info.plist */,
+				83D04A9B11E52E620038C230 /* InfoPlist.strings */,
+				83D04AA311E52E620038C230 /* MainWindow.xib */,
+				83D04AAC11E52E620038C230 /* FirstView.xib */,
+				83D04AAF11E52E630038C230 /* SecondView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		83D04A8B11E52E620038C230 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83D04A9311E52E620038C230 /* UIKit.framework */,
+				83D04A9511E52E620038C230 /* Foundation.framework */,
+				83D04A9711E52E620038C230 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83D04A9111E52E620038C230 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83D04A9011E52E620038C230 /* iPoc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83D04A8F11E52E620038C230 /* iPoc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83D04AB411E52E630038C230 /* Build configuration list for PBXNativeTarget "iPoc" */;
+			buildPhases = (
+				83D04A8C11E52E620038C230 /* Sources */,
+				83D04A8D11E52E620038C230 /* Frameworks */,
+				83D04A8E11E52E620038C230 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPoc;
+			productName = iPoc;
+			productReference = 83D04A9011E52E620038C230 /* iPoc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83D04A8311E52E620038C230 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "CodeCafe, LLC";
+			};
+			buildConfigurationList = 83D04A8611E52E620038C230 /* Build configuration list for PBXProject "iPoc" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 83D04A8111E52E620038C230;
+			productRefGroup = 83D04A9111E52E620038C230 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83D04A8F11E52E620038C230 /* iPoc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83D04A8E11E52E620038C230 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D04A9D11E52E620038C230 /* InfoPlist.strings in Resources */,
+				83D04AA511E52E620038C230 /* MainWindow.xib in Resources */,
+				83D04AAE11E52E620038C230 /* FirstView.xib in Resources */,
+				83D04AB111E52E630038C230 /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83D04A8C11E52E620038C230 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D04A9F11E52E620038C230 /* main.m in Sources */,
+				83D04AA211E52E620038C230 /* iPocAppDelegate.m in Sources */,
+				83D04AA811E52E620038C230 /* FirstViewController.m in Sources */,
+				83D04AAB11E52E620038C230 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83D04A9B11E52E620038C230 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D04A9C11E52E620038C230 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		83D04AA311E52E620038C230 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D04AA411E52E620038C230 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		83D04AAC11E52E620038C230 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D04AAD11E52E620038C230 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		83D04AAF11E52E630038C230 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D04AB011E52E630038C230 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83D04AB211E52E630038C230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		83D04AB311E52E630038C230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+		83D04AB511E52E630038C230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iPoc_Prefix.pch;
+				INFOPLIST_FILE = "iPoc-Info.plist";
+				PRODUCT_NAME = iPoc;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		83D04AB611E52E630038C230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iPoc_Prefix.pch;
+				INFOPLIST_FILE = "iPoc-Info.plist";
+				PRODUCT_NAME = iPoc;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83D04A8611E52E620038C230 /* Build configuration list for PBXProject "iPoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D04AB211E52E630038C230 /* Debug */,
+				83D04AB311E52E630038C230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83D04AB411E52E630038C230 /* Build configuration list for PBXNativeTarget "iPoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D04AB511E52E630038C230 /* Debug */,
+				83D04AB611E52E630038C230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83D04A8311E52E620038C230 /* Project object */;
+}
