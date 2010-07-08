@@ -39,14 +39,32 @@
 		83D04AAB11E52E620038C230 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D04AAA11E52E620038C230 /* SecondViewController.m */; };
 		83D04AAE11E52E620038C230 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D04AAC11E52E620038C230 /* FirstView.xib */; };
 		83D04AB111E52E630038C230 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D04AAF11E52E630038C230 /* SecondView.xib */; };
+		83E5318011E55D9A00491202 /* libObjectiveResource.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E5317C11E55D6100491202 /* libObjectiveResource.a */; };
+		83E531EC11E55F0A00491202 /* ObjectiveResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E531E211E55F0A00491202 /* ObjectiveResource.h */; };
+		83E5320211E55FB600491202 /* NSError+Error.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E531D911E55F0A00491202 /* NSError+Error.h */; };
+		83E5320311E55FB600491202 /* NSHTTPURLResponse+Error.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E531DA11E55F0A00491202 /* NSHTTPURLResponse+Error.h */; };
+		83E5320411E55FB600491202 /* NSMutableURLRequest+ResponseType.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E531DB11E55F0A00491202 /* NSMutableURLRequest+ResponseType.h */; };
+		83E5320511E55FB600491202 /* NSObject+ObjectiveResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E531DC11E55F0A00491202 /* NSObject+ObjectiveResource.h */; };
+		83E5320611E55FB600491202 /* ORConfigurationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E531DD11E55F0A00491202 /* ORConfigurationManager.h */; };
+		83E5320711E55FB600491202 /* ORConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E531DE11E55F0A00491202 /* ORConnection.h */; };
+		83E5320811E55FB600491202 /* ORConnectionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E531DF11E55F0A00491202 /* ORConnectionDelegate.h */; };
+		83E5320911E55FB600491202 /* ORConnectionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E531E011E55F0A00491202 /* ORConnectionManager.h */; };
+		83E5320A11E55FB600491202 /* ORResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E531E111E55F0A00491202 /* ORResponse.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		83F1C49011E54317001080B0 /* PBXContainerItemProxy */ = {
+		83E5317B11E55D6100491202 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 83F1C48C11E54317001080B0 /* ObjectiveResource.xcodeproj */;
+			containerPortal = 83E5317511E55D6100491202 /* ObjectiveResource.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D2AAC07E0554694100DB518D /* libObjectiveResource.a */;
+			remoteInfo = ObjectiveResource;
+		};
+		83E531AB11E55E4400491202 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83E5317511E55D6100491202 /* ObjectiveResource.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D /* ObjectiveResource */;
 			remoteInfo = ObjectiveResource;
 		};
 /* End PBXContainerItemProxy section */
@@ -104,7 +122,17 @@
 		83D04AAA11E52E620038C230 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		83D04AAD11E52E620038C230 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
 		83D04AB011E52E630038C230 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
-		83F1C48C11E54317001080B0 /* ObjectiveResource.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ObjectiveResource.xcodeproj; path = lib/objectiveresource/src/ObjectiveResource.xcodeproj; sourceTree = "<group>"; };
+		83E5317511E55D6100491202 /* ObjectiveResource.xcodeproj */ = {isa = PBXFileReference; explicitFileType = "wrapper.pb-project"; name = ObjectiveResource.xcodeproj; path = lib/objectiveresource/src/ObjectiveResource.xcodeproj; sourceTree = SOURCE_ROOT; };
+		83E531D911E55F0A00491202 /* NSError+Error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSError+Error.h"; path = "lib/objectiveresource/src/ObjectiveResource/NSError+Error.h"; sourceTree = SOURCE_ROOT; };
+		83E531DA11E55F0A00491202 /* NSHTTPURLResponse+Error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSHTTPURLResponse+Error.h"; path = "lib/objectiveresource/src/ObjectiveResource/NSHTTPURLResponse+Error.h"; sourceTree = SOURCE_ROOT; };
+		83E531DB11E55F0A00491202 /* NSMutableURLRequest+ResponseType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableURLRequest+ResponseType.h"; path = "lib/objectiveresource/src/ObjectiveResource/NSMutableURLRequest+ResponseType.h"; sourceTree = SOURCE_ROOT; };
+		83E531DC11E55F0A00491202 /* NSObject+ObjectiveResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+ObjectiveResource.h"; path = "lib/objectiveresource/src/ObjectiveResource/NSObject+ObjectiveResource.h"; sourceTree = SOURCE_ROOT; };
+		83E531DD11E55F0A00491202 /* ORConfigurationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORConfigurationManager.h; path = lib/objectiveresource/src/ObjectiveResource/ORConfigurationManager.h; sourceTree = SOURCE_ROOT; };
+		83E531DE11E55F0A00491202 /* ORConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORConnection.h; path = lib/objectiveresource/src/ObjectiveResource/ORConnection.h; sourceTree = SOURCE_ROOT; };
+		83E531DF11E55F0A00491202 /* ORConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORConnectionDelegate.h; path = lib/objectiveresource/src/ObjectiveResource/ORConnectionDelegate.h; sourceTree = SOURCE_ROOT; };
+		83E531E011E55F0A00491202 /* ORConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORConnectionManager.h; path = lib/objectiveresource/src/ObjectiveResource/ORConnectionManager.h; sourceTree = SOURCE_ROOT; };
+		83E531E111E55F0A00491202 /* ORResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORResponse.h; path = lib/objectiveresource/src/ObjectiveResource/ORResponse.h; sourceTree = SOURCE_ROOT; };
+		83E531E211E55F0A00491202 /* ObjectiveResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjectiveResource.h; path = lib/objectiveresource/src/ObjectiveResource/ObjectiveResource.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83E5318011E55D9A00491202 /* libObjectiveResource.a in Frameworks */,
 				83D04A9411E52E620038C230 /* UIKit.framework in Frameworks */,
 				83D04A9611E52E620038C230 /* Foundation.framework in Frameworks */,
 				83D04A9811E52E620038C230 /* CoreGraphics.framework in Frameworks */,
@@ -158,7 +187,17 @@
 		83D04A8111E52E620038C230 = {
 			isa = PBXGroup;
 			children = (
-				83F1C48C11E54317001080B0 /* ObjectiveResource.xcodeproj */,
+				83E531D911E55F0A00491202 /* NSError+Error.h */,
+				83E531DA11E55F0A00491202 /* NSHTTPURLResponse+Error.h */,
+				83E531DB11E55F0A00491202 /* NSMutableURLRequest+ResponseType.h */,
+				83E531DC11E55F0A00491202 /* NSObject+ObjectiveResource.h */,
+				83E531DD11E55F0A00491202 /* ORConfigurationManager.h */,
+				83E531DE11E55F0A00491202 /* ORConnection.h */,
+				83E531DF11E55F0A00491202 /* ORConnectionDelegate.h */,
+				83E531E011E55F0A00491202 /* ORConnectionManager.h */,
+				83E531E111E55F0A00491202 /* ORResponse.h */,
+				83E531E211E55F0A00491202 /* ObjectiveResource.h */,
+				83E5317511E55D6100491202 /* ObjectiveResource.xcodeproj */,
 				83AF30B611E538C200A63C01 /* persondog_demo */,
 				83D04A8811E52E620038C230 /* Classes */,
 				83D04A8911E52E620038C230 /* Other Sources */,
@@ -228,21 +267,42 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		83F1C48D11E54317001080B0 /* Products */ = {
+		83E5317811E55D6100491202 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				83F1C49111E54317001080B0 /* libObjectiveResource.a */,
+				83E5317C11E55D6100491202 /* libObjectiveResource.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		83F1C4AE11E54A4A001080B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E531EC11E55F0A00491202 /* ObjectiveResource.h in Headers */,
+				83E5320211E55FB600491202 /* NSError+Error.h in Headers */,
+				83E5320311E55FB600491202 /* NSHTTPURLResponse+Error.h in Headers */,
+				83E5320411E55FB600491202 /* NSMutableURLRequest+ResponseType.h in Headers */,
+				83E5320511E55FB600491202 /* NSObject+ObjectiveResource.h in Headers */,
+				83E5320611E55FB600491202 /* ORConfigurationManager.h in Headers */,
+				83E5320711E55FB600491202 /* ORConnection.h in Headers */,
+				83E5320811E55FB600491202 /* ORConnectionDelegate.h in Headers */,
+				83E5320911E55FB600491202 /* ORConnectionManager.h in Headers */,
+				83E5320A11E55FB600491202 /* ORResponse.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		83D04A8F11E52E620038C230 /* iPoc */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83D04AB411E52E630038C230 /* Build configuration list for PBXNativeTarget "iPoc" */;
 			buildPhases = (
+				83F1C4AE11E54A4A001080B0 /* Headers */,
 				83D04A8C11E52E620038C230 /* Sources */,
 				83D04A8D11E52E620038C230 /* Frameworks */,
 				83D04A8E11E52E620038C230 /* Resources */,
@@ -250,6 +310,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				83E531AC11E55E4400491202 /* PBXTargetDependency */,
 			);
 			name = iPoc;
 			productName = iPoc;
@@ -262,6 +323,7 @@
 		83D04A8311E52E620038C230 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				ORGANIZATIONNAME = "CodeCafe, LLC";
 			};
 			buildConfigurationList = 83D04A8611E52E620038C230 /* Build configuration list for PBXProject "iPoc" */;
@@ -272,8 +334,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 83F1C48D11E54317001080B0 /* Products */;
-					ProjectRef = 83F1C48C11E54317001080B0 /* ObjectiveResource.xcodeproj */;
+					ProductGroup = 83E5317811E55D6100491202 /* Products */;
+					ProjectRef = 83E5317511E55D6100491202 /* ObjectiveResource.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -284,11 +346,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		83F1C49111E54317001080B0 /* libObjectiveResource.a */ = {
+		83E5317C11E55D6100491202 /* libObjectiveResource.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libObjectiveResource.a;
-			remoteRef = 83F1C49011E54317001080B0 /* PBXContainerItemProxy */;
+			remoteRef = 83E5317B11E55D6100491202 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -342,6 +404,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		83E531AC11E55E4400491202 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ObjectiveResource;
+			targetProxy = 83E531AB11E55E4400491202 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		83D04A9B11E52E620038C230 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
@@ -390,6 +460,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
 				SDKROOT = iphoneos3.2;
+				USER_HEADER_SEARCH_PATHS = "lib/objectiveresource/src/**";
 			};
 			name = Debug;
 		};
@@ -404,6 +475,7 @@
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
 				SDKROOT = iphoneos3.2;
+				USER_HEADER_SEARCH_PATHS = "lib/objectiveresource/src/**";
 			};
 			name = Release;
 		};
@@ -415,6 +487,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iPoc_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "iPoc-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
